@@ -1,0 +1,46 @@
+# ===== Python Bytecode & C extensions =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===== Distribution / packaging =====
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+.eggs/
+
+# ===== Virtual Environments =====
+venv/
+env/
+ENV/
+.venv/
+.env
+.env.*          # e.g. .env.local, .env.development
+
+# ===== IDEs & Editors =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Operating System files =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs & SQLite DBs =====
+*.log
+*.sqlite3
+
+# ===== Testing =====
+htmlcov/
+.tox/
+.coverage
+.nox/
+
+# ===== Optional: Mac / Windows swap files =====
+*.swp
+~$*

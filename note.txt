@@ -1,0 +1,48 @@
+Open source models: 
+    These models are free to download and manipulate and runs locally
+    for example Facebook's,s LLAMA is open source
+Prompts:
+    prompts are instructions given to the model to guide the output
+Structured output generation:
+    some LLMs can create structured data .Structured data can be stored in database.
+    1. type dictionary - python dictionary with keys and values
+    2. pydantic 
+    3. json schema  
+Output parsers: 
+    helps generate structured data from all kind of models
+    four types
+Runnables:
+    helps create chains .just like object oriented programming's abstract classes 
+    it chains different classes using inheritance 
+    1. task specific Runnables
+    2. primitive runnables 
+        1. RunnableSequential 
+        2. RunnableParallel 
+        3. RunnablePassthorugh
+        4. RunnableLambda
+RAG:
+    1. document loaders
+    2. text splitters
+    3. Vector databases
+    4. Retrivers
+text splitters:
+    1. lenght based
+    2. text structure based
+    3. document structure based
+    4. semantic meaning based
+Three problems with LLMs:
+    1.unable to read private data 
+    2.unable to reach recent data after training
+    3. halucination
+IN-context learning: 
+    when a model learns to solve a task by reading prompts
+emergent-property:
+    a behaviour that suddenly appears when it reaches certain scale
+    or complexity even though it was not explicitly expected
+RAG:
+    is a way to make a LLM model smarter by giving it
+    extra information at the time of asking
+    1. indexing 
+    2. retrieval 
+    3. Augmentation
+    4. generation
